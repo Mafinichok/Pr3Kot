@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Pr3Kot</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!--
+    ab1
+    scoop функ возращает: run let with
+    ab2
+    Конструкция в Junit позволяет пров коррект: Assume
+    ab3
+    CA разбита на слои: Presentation Data Domain
+    ab4
+    отменить корутину cancel ()?
+    ab5
+    для чтения: readln(), readLine()
+    ab6
+    println(persons.any{it.endsWith("e")}) при false это any
+    ab7
+    delay(20000) Log.d("RRR". "done"): Спустя 20 секунд сообщение в логах
+    ab8
+    строка кода перейдёт к фрагменту с индефикатором defaultFragment: navHostController
+    ab9
+    notifyDataSetChanget: Все
+    ab10
+    heroesList.add(readln()).apply{print чёта там}
+    ab11
+    анатация для junit для методов:before
+    ab12
+    val person но не булевы значениея а имена:
+    ab13
+    какой тип di используется: Method
+    ab14
+    вставить слово лямба выр наибольшее: max
+    ab15
+    билдер корутин запускает новую корутину и немедленно воз job для fire-and_forget: launch
+    ab16
+    val numbers:List<int?> = listOf(40, -5, 30, 511, 0, 22) это: будет ошибка
+    ab17
+    какая функция в retrofit выполняет запрос асинхронно:suspend
+    ab18:
+    для создания пары pair: to
+
+
+    -->
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navgraf"
+    app:startDestination="@id/firstFrag">
+
+    <fragment
+        android:id="@+id/firstFrag"
+        android:name="com.example.pr3kot.FirstFrag"
+        android:label="fragment_first"
+        tools:layout="@layout/fragment_first" >
+        <action
+            android:id="@+id/action_firstFrag_to_secondFrag"
+            app:destination="@id/secondFrag" />
+        <action
+            android:id="@+id/action_firstFrag_to_tretiyFrag"
+            app:destination="@id/tretiyFrag" />
+    </fragment>
+    <fragment
+        android:id="@+id/secondFrag"
+        android:name="com.example.pr3kot.SecondFrag"
+        android:label="fragment_second"
+        tools:layout="@layout/fragment_second" >
+        <action
+            android:id="@+id/action_secondFrag_to_tretiyFrag"
+            app:destination="@id/tretiyFrag" />
+        <action
+            android:id="@+id/action_secondFrag_to_firstFrag"
+            app:destination="@id/firstFrag" />
+    </fragment>
+    <fragment
+        android:id="@+id/tretiyFrag"
+        android:name="com.example.pr3kot.TretiyFrag"
+        android:label="fragment_tretiy"
+        tools:layout="@layout/fragment_tretiy" >
+        <action
+            android:id="@+id/action_tretiyFrag_to_firstFrag"
+            app:destination="@id/firstFrag" />
+        <action
+            android:id="@+id/action_tretiyFrag_to_secondFrag"
+            app:destination="@id/secondFrag" />
+    </fragment>
+</navigation>
